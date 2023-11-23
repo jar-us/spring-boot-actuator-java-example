@@ -6,9 +6,19 @@
 :project_id: gs-actuator-service
 
 https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready[Spring Boot Actuator]
-is a sub-project of Spring Boot. It adds several production grade services to your
-application with little effort on your part. In this guide, you will build an application
-and then see how to add these services.
+is a sub-project of Spring Boot that provides various production-ready features to help you monitor and manage your Spring Boot application. Here are some key aspects of Spring Boot Actuator:
+
+*Health Checks:* Actuator provides a health check endpoint to quickly assess if your API is functioning correctly. This is crucial for ensuring reliability and availability.
+
+*Metrics Gathering:* It collects important metrics such as request count, response times, and system health, which are essential for monitoring the performance and usage of your API.
+
+*HTTP Monitoring:* Actuator exposes various endpoints over HTTP, allowing you to monitor details like application health, metrics, and environment properties, which is essential for real-time API monitoring.
+
+*Auditing and Logging:* Actuator helps in tracking user activities and operations on the API, which is vital for security and debugging purposes.
+
+*Security:* You can secure Actuator's endpoints using Spring Security, which is important to prevent unauthorized access to sensitive information about your API's internal workings.
+
+In summary, Spring Boot Actuator is essential for monitoring and managing your Spring Boot applications, especially when they are running in production. It provides critical insights and control over your application, making it easier to maintain and troubleshoot.
 
 == What You Will build
 
